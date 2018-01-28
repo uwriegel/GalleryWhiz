@@ -121,26 +121,8 @@
     <Content Include="WebApp\css\tableView.css" />
     <Content Include="WebApp\css\waitingitem.css" />
     <Content Include="WebApp\css\whiz.css" />
-    <Content Include="WebApp\scripts\columnscontrol.js" />
-    <Content Include="WebApp\scripts\commander.js" />
     <Content Include="WebApp\scripts\commanderview.js" />
-    <Content Include="WebApp\scripts\conflictview.js" />
-    <Content Include="WebApp\scripts\dialog.js" />
-    <Content Include="WebApp\scripts\ExtendedRename.js" />
-    <Content Include="WebApp\scripts\favorites.js" />
-    <Content Include="WebApp\scripts\filehelper.js" />
-    <Content Include="WebApp\scripts\grid.js" />
-    <Content Include="WebApp\scripts\itemsmodel.js" />
-    <Content Include="WebApp\scripts\itemssorter.js" />
-    <Content Include="WebApp\scripts\itemsviewmodel.js" />
-    <Content Include="WebApp\scripts\Restrictor.js" />
-    <Content Include="WebApp\scripts\savedhistory.js" />
-    <Content Include="WebApp\scripts\savedviews.js" />
-    <Content Include="WebApp\scripts\scrollbar.js" />
-    <Content Include="WebApp\scripts\tableview.js" />
-    <Content Include="WebApp\scripts\vgrid.js" />
-    <Content Include="WebApp\scripts\viewer.js" />
-    <Content Include="WebApp\scripts\waitingitem.js" />
+    <Content Include="WebApp\scripts\whiz.js" />
     <Content Include="WebApp\whiz.html" />
   </ItemGroup>
   <ItemGroup>

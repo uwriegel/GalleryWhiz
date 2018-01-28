@@ -14,24 +14,50 @@
 
 </head>
 <body>
-    <div id="vgrid">
-        <div id="grid">
-            <div id="leftView"></div>
-            <div id="grip"></div>
-            <div id="rightView"></div>
+    <div id="app">
+        <header id="header"></header>
+        <div id="content">
+            <div id="vgrid">
+                <div id="grid">
+                    <div id="leftView"></div>
+                    <div id="grip"></div>
+                    <div id="rightView"></div>
+                </div>
+                <div id="vgrip"></div>
+                <div id="viewer">
+                    <img id="viewerImg" class="hidden" />
+                    <video id="viewerVideo" controls autoplay class="hidden"></video>
+                    <iframe id="viewerFrame" frameBorder="0" class="hidden"></iframe>
+                </div>
+            </div>
         </div>
-        <div id="vgrip"></div>
-        <div id="viewer">
-            <img id="viewerImg" class="displayNone" />
-            <video id="viewerVideo" controls autoplay class="displayNone"></video>
-            <iframe id="viewerFrame" frameBorder="0" class="displayNone"></iframe>
-        </div>
+        <footer id="footer">Nichts selektiert</footer>
     </div>
-    <footer id="footer">Nichts selektiert</footer>
+
+    <template id="tableDataItemIconNameTemplate">
+        <td>
+            <div class="it-iconName">
+                <img class="it-image" alt="" onerror="this.onerror=null;this.src='assets/images/fault.png'" />
+                <span class="it-nameValue"></span>
+            </div>
+        </td>
+    </template>
+
+    <template id="tableDataItemTemplate">
+        <td>
+            <span></span>
+        </td>
+    </template>
+
+    <template id="tableDataItemRightTemplate">
+        <td class="tdit-right">
+            <span></span>
+        </td>
+    </template>
 
     <template id="conflictItemTemplate">
         <tr tabindex="0">
-            <td class="it-name"><div class="it-iconName"><img class="it-image" src='images/fault.png' alt="" onerror="this.src='images/fault.png'"><span class="it-nameValue"></span></div></td>
+            <td class="it-name"><div class="it-iconName"><img class="it-image" src='assets/images/fault.png' alt="" onerror="this.src='assets/images/fault.png'"><span class="it-nameValue"></span></div></td>
             <td class="it-size">
                 <span class="it-sourcesize"></span><br>
                 <span class="it-targetsize"></span>
@@ -82,24 +108,7 @@
         </div>
     </template>
 
-    <script src="scripts/favorites.js"></script>
-    <script src="scripts/itemsmodel.js"></script>
-    <script src="scripts/itemssorter.js"></script>
-    <script src="scripts/filehelper.js"></script>
-    <script src="scripts/itemsviewmodel.js"></script>
-    <script src="scripts/columnscontrol.js"></script>
-    <script src="scripts/scrollbar.js"></script>
-    <script src="scripts/tableview.js"></script>
-    <script src="scripts/extendedrename.js"></script>
-    <script src="scripts/dialog.js"></script>
-    <script src="scripts/conflictview.js"></script>
-    <script src="scripts/waitingitem.js"></script>
-    <script src="scripts/savedhistory.js"></script>
-    <script src="scripts/commanderview.js"></script>
-    <script src="scripts/vgrid.js"></script>
-    <script src="scripts/grid.js"></script>
-    <script src="scripts/viewer.js"></script>
-    <script src="scripts/savedviews.js"></script>
-    <script src="scripts/commander.js"></script>
+    <script type="module" src="scripts/whiz.js"></script>
+
 </body>
 </html>
