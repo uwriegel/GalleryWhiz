@@ -8,6 +8,10 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <WebView Source="ms-appx-web:///WebApp/whiz.html">
+            
+        </WebView>
+        <!--Source="ms-appx-web:///webapp/index.html"-->
+        <!--Source="https://www.bing.com/"-->
     </Grid>
 </Page>
