@@ -1,0 +1,47 @@
+﻿
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75%;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    -webkit-font-smoothing: antialiased;
+    background-color: var(--background-color);
+    color: var(--color);
+}
+
+input {
+    background-color: var(--background-color);
+    color: var(--color);
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#content {
+    flex-grow: 1;
+    position: relative;
+}
+
+#leftView {
+    position: absolute;
+    width: calc(50% - 3px);
+    height: 100%;
+    left: 0px;
+    right: 0px;
+}
+
+#rightView {
+    position: absolute;
+    width: calc(50% - 3px);
+    height: 100%;
+    left: calc(50% + 3px);
+    right: 0px;
+}

@@ -1,0 +1,29 @@
+:root {
+    --background-color: white;
+    --color: black;
+    
+    --selected-bg-color: blue;
+    --selected-bg-hover-color: #0063ff;
+    --selected-color: white;
+    
+    --separator-color: lightgray;
+    
+    --menu-color: black;
+    --menu-background-color: rgb(238, 236, 236);
+    --menu-hover-color: rgba(0, 0, 255, 0.2);
+    --menu-item-hover-color: rgba(0, 0, 255, 0.2);
+    --menu-selected-background-color: blue;
+    --menu-selected-color: white;
+
+    --scrollbar-border-color: lightgray;
+    --scrollbar-grip-color: rgb(209, 209, 209);
+    --scrollbar-button-active-color: #aaa;
+    --scrollbar-border-color: #eee;
+    --scrollbar-image-color: #666;
+    --scrollbar-grip-hover-color: #bbb;
+    --scrollbar-grip-active-color: #999;
+
+    --commander-item-hover: #cfd7fa;
+
+    --grip-color: #dcdcdc;
+}

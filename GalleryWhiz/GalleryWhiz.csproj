@@ -115,13 +115,18 @@
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
-    <Content Include="WebApp\css\dark.css" />
-    <Content Include="WebApp\css\dialog.css" />
-    <Content Include="WebApp\css\scrollbar.css" />
-    <Content Include="WebApp\css\tableView.css" />
-    <Content Include="WebApp\css\waitingitem.css" />
-    <Content Include="WebApp\css\whiz.css" />
+    <Content Include="WebApp\css\app.css" />
+    <Content Include="WebApp\css\base\base.css" />
+    <Content Include="WebApp\css\components\commanderview.css" />
+    <Content Include="WebApp\css\components\footer.css" />
+    <Content Include="WebApp\css\components\grid.css" />
+    <Content Include="WebApp\css\components\scrollbar.css" />
+    <Content Include="WebApp\css\components\tableview.css" />
+    <Content Include="WebApp\css\themes\blue.css" />
+    <Content Include="WebApp\css\themes\dark.css" />
+    <Content Include="WebApp\css\themes\lightblue.css" />
     <Content Include="WebApp\scripts\commanderview.js" />
+    <Content Include="WebApp\scripts\viewer.js" />
     <Content Include="WebApp\scripts\whiz.js" />
     <Content Include="WebApp\whiz.html" />
   </ItemGroup>
