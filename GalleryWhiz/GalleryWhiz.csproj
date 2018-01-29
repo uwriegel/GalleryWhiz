@@ -128,7 +128,9 @@
     <Content Include="WebApp\scripts\columnscontrol.js" />
     <Content Include="WebApp\scripts\commanderview.js" />
     <Content Include="WebApp\scripts\grid.js" />
+    <Content Include="WebApp\scripts\items.js" />
     <Content Include="WebApp\scripts\scrollbar.js" />
+    <Content Include="WebApp\scripts\tableview.js" />
     <Content Include="WebApp\scripts\vgrid.js" />
     <Content Include="WebApp\scripts\viewer.js" />
     <Content Include="WebApp\scripts\whiz.js" />
